@@ -1,5 +1,9 @@
 const express = require('express')
 const app = express()
+const connectDB = require('./config/db')
+
+//connect app to databse
+connectDB()
 
 
 app.get('/', (req, res) => {
