@@ -4,6 +4,7 @@ const connectDB = require('./config/db')
 
 //connect app to databse
 connectDB()
+app.use(express.json({extended:false}))
 
 app.use('/api/users',require('./routes/api/users'))
 app.use('/api/posts',require('./routes/api/posts'))
