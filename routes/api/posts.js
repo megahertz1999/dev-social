@@ -1,5 +1,5 @@
-const express = require('express')
-const router = express.Router()
+const express = require('express');
+const router = express.Router();
 
 /*
 @route  GET api/posts
@@ -7,7 +7,7 @@ const router = express.Router()
 @access public
 */
 router.get('/', (req, res) => {
-  res.send("Hello world")
-})
+  res.send('Hello world');
+});
 
-module.exports = router
+module.exports = router;
