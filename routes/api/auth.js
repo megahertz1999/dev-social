@@ -30,7 +30,7 @@ router.get('/', auth,async(req, res) => {
 @desc   Login user and return token
 @access Public
 */
-router.get('/login', [
+router.post('/login', [
   check('email', 'Please include valid email').isEmail(),
   check('password', 'Password is required').exists()
 ], async (req, res) => { 
