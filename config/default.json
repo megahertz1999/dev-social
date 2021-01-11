@@ -1,4 +1,6 @@
 {
   "mongoURI":"mongodb://localhost:27017/devsocial",
-  "jwtSecret":"1234567890poiuytrewqasdfghjkl;.l,mnbvcxz"
+  "jwtSecret":"1234567890poiuytrewqasdfghjkl;.l,mnbvcxz",
+  "githubSecret":"78e931ac1bee0f7e53f98ab6b8fd271e44ec2dcc",
+  "githubClientID":"9f25394297ef6e35e509"
 }
