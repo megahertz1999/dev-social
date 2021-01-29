@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Login() {
   const [formData, setFormData] = useState({
@@ -48,7 +49,7 @@ export default function Login() {
         <input type='submit' className='btn btn-primary' value='Sign In' />
       </form>
       <p className='my-1'>
-        Don't have an account? <a href='login.html'>Register</a>
+        Don't have an account? <Link to='/register'>Register</Link>
       </p>
     </>
   );
